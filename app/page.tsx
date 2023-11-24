@@ -1,5 +1,5 @@
 import Image from 'next/image'
-
+import Link from 'next/link'
 export default function Home() {
   return (
     <main>
@@ -33,14 +33,28 @@ export default function Home() {
       <div className='bottomback py-10 border-t-4 border-orange-400 justify-between flex'>
         <div className='flex '>
           <h2 className='text-xl block mx-3'>Bean and Brew</h2>
-          <div className='grid grid-cols-2 justify-between'>
-            <li>Products</li>
-            <li>Pick-up's and Booking</li>
-            <li>Get a hamper</li>
-            <li>Baking lessons</li>
-            <li>Sustainability</li>
-            <li>About us</li>
-            <li>Login and Sign-up</li>
+          <div className='grid grid-cols-2 justify-between '>
+            <Link href='/products'>
+              <li>Products</li>
+            </Link>
+            <Link href={'/pick-up'}>
+              <li>Pick-up's</li>
+            </Link>
+            <Link href={'/booking'}>
+              <li>booking</li>
+            </Link>
+            <Link href={'/baking'}>
+              <li>Baking lessons</li>
+            </Link>
+            <Link href={'/sustainability'}>
+              <li>Sustainability</li>
+            </Link>
+            <Link href={'/aboutus'}>
+              <li>About us</li>
+            </Link>
+            <Link href={'/login'}>
+              <li>Login and Sign-up</li>
+            </Link>
           </div>
         </div>
         <div className='block'>
