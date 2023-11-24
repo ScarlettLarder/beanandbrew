@@ -7,8 +7,8 @@ export default function Home() {
         <div className='my-30 ml-32 flex justify-center items-center'>
           <div className=''>
             <p className='text-5xl'>Try out the seasonal</p>
-            <span className='text-7xl mb-5 block colourtext font-bold'>Pumpkin Spice <p className='block inline-block colourtext'>Latte</p></span>
-            <button className='hover:scale-105 duration-150 bg-gradient-to-r from-orange-500 hover:from-orange-400 to-amber-600 hover:to-amber-500 text-3xl text-light  py-3 px-5 rounded-full'>Found out more</button>
+            <span className='text-8xl mb-5 block colourtext font-extrabold'>Pumpkin Spice <p className='block inline-block colourtext'>Latte</p></span>
+            <button className='hover:scale-105 duration-150 bg-gradient-to-r from-orange-500 hover:from-orange-400 to-amber-600 hover:to-amber-500 text-3xl text-light  py-3 px-5 rounded-full'>Find out more</button>
           </div> 
         </div>
         <div className='mx-auto py-10 hover:scale-105 duration-150'>
@@ -23,7 +23,7 @@ export default function Home() {
           <div className='mx-20'>
             <p className='text-5xl'>Baking lessons available!</p>
             <p className='text-2xl text-gray-800'>Check out our baking lessons to gain knowledge and the satification of creating bread and other baked goods.</p>
-            <button className='hover:scale-105 duration-150 my-3 bg-gradient-to-r from-orange-500 hover:from-orange-400 to-amber-600 hover:to-amber-500 text-3xl text-light  py-3 px-5 rounded-full'>Found out more</button>
+            <button className='hover:scale-105 duration-150 my-3 bg-gradient-to-r from-orange-500 hover:from-orange-400 to-amber-600 hover:to-amber-500 text-3xl text-light  py-3 px-5 rounded-full'>Find out more</button>
           </div>
         </div>
         <div>
@@ -37,11 +37,8 @@ export default function Home() {
             <Link href='/products'>
               <li>Products</li>
             </Link>
-            <Link href={'/pick-up'}>
-              <li>Pick-up's</li>
-            </Link>
             <Link href={'/booking'}>
-              <li>booking</li>
+              <li>Booking</li>
             </Link>
             <Link href={'/baking'}>
               <li>Baking lessons</li>

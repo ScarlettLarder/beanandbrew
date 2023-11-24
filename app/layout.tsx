@@ -25,8 +25,8 @@ export default function RootLayout({
             <div>
               <div className='py-6 text-2xl '>
                 <a href='/products' className='hover:text-lightbeangreen duration-100 ease-in-out mr-5'>Products</a>
-                <a href='/pick-up' className='hover:text-lightbeangreen duration-100 ease-in-out mr-5'>Pick-up</a>
-                <a href='/booking' className='hover:text-lightbeangreen duration-100 ease-in-out mr-5'>Booking</a>
+                <a href='/baking' className='hover:text-lightbeangreen duration-100 ease-in-out mr-5'>Pick-up</a>
+                <a href='/baking' className='hover:text-lightbeangreen duration-100 ease-in-out mr-5'>Baking</a>
                 <a href='/login' className='hover:text-lightbeangreen duration-100 ease-in-out mr-5'>Login</a>
               </div>
             </div>

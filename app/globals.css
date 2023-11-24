@@ -12,7 +12,7 @@
 }
 
 .bottomback {
-    background-color: #e0d6d2;
+    background-color: #eee6e3;
 }
 
 .background {
@@ -20,12 +20,16 @@
     background: linear-gradient(0deg, #F4EBE8 0%, rgb(196, 183, 179) 100%);
 }
 
+.fancyback {
+    background-color: #e4d7d2;
+   }
+
 .colourtext {
-    animation: colourchange 3s infinite;
+    animation: colourchange 5s infinite;
 }
 
 @keyframes colourchange {
-    0% {color: #F18C0E;}
-    50% {color: rgb(247, 163, 6)}
-    100% {color: #F18C0E;}
+    0% {color: #F18C0E;   text-shadow: 5px 5px 0px #FFB650, 5px 5px 0px #FFD662, 7px 7px 0px #FFB650, 10px 10px 10px #ffb54d;;}
+    50% {color: rgb(247, 183, 6);  text-shadow: 0px 0px 0px #ffaa34, 0px 0px 0px #FFD662, 0px 0px 0px #FFB650;;}
+    100% {color: #F18C0E;   text-shadow: 5px 5px 0px #FFB650, 5px 5px 0px #FFD662, 7px 7px 0px #FFB650, 10px 10px 10px #ffb143;;}
 }

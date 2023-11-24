@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function login() {
     return(
         <div>
@@ -13,6 +15,9 @@ export default function login() {
                     <input className="rounded-full bg-green-700 hover:bg-green-500 py-2 px-4 mt-5 text-xl" type="submit" value="Submit" />
                 </form>
             </div>
+            <Link href={'/signup'}>
+                <p className="text-green-800 ml-20">Dont have an account? Sign up</p>
+            </Link>
         </div>
     )
 }
