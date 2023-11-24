@@ -5,3 +5,22 @@
 :root {
  background-color: #F4EBE8;
 }
+
+.bottomback {
+    background-color: #e0d6d2;
+}
+
+.background {
+    background: rgb(244,235,232);
+    background: linear-gradient(0deg, #F4EBE8 0%, rgb(196, 183, 179) 100%);
+}
+
+.colourtext {
+    animation: colourchange 3s infinite;
+}
+
+@keyframes colourchange {
+    0% {color: #F18C0E;}
+    50% {color: rgb(247, 163, 6)}
+    100% {color: #F18C0E;}
+}
